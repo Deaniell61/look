@@ -1,0 +1,80 @@
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+.btn-circle i {
+  margin-left: -15px;
+  font-size: 1.5em;
+}
+
+@media (min-width:760px) { 
+      /* Container needed to position the button. Adjust the width as needed */
+  .card {
+    position: relative;
+  }
+  
+  /* Make the image responsive */
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the card/image */
+  .card .btn {
+    position: absolute;
+    top: 85%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 12px 24px;
+    color: #ffffff !important;
+   }
+
+}
+
+@media (max-width:760px) { 
+    /* Container needed to position the button. Adjust the width as needed */
+.card {
+  position: relative;
+}
+
+/* Make the image responsive */
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the card/image */
+.card .btn {
+  position: absolute;
+  top: 47%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  padding: 12px 24px;
+  color: #ffffff
+}
+
+}
+

@@ -1,4 +1,4 @@
-.btn-circle {
+.btn-circle1 {
   width: 30px;
   height: 30px;
   text-align: center;
@@ -7,7 +7,7 @@
   line-height: 1.428571429;
   border-radius: 15px;
 }
-.btn-circle.btn-lg {
+.btn-circle1.btn-lg1 {
   width: 50px;
   height: 50px;
   padding: 10px 16px;
@@ -15,7 +15,7 @@
   line-height: 1.33;
   border-radius: 25px;
 }
-.btn-circle.btn-xl {
+.btn-circle1.btn-xl1 {
   width: 70px;
   height: 70px;
   padding: 10px 16px;
@@ -23,9 +23,14 @@
   line-height: 1.33;
   border-radius: 35px;
 }
-.btn-circle i {
+.btn-circle1 img {
   margin-left: -15px;
-  font-size: 1.5em;
+  width: 10px;
+
+}
+
+.nav .nav-item a{
+  color: white
 }
 
 @media (min-width:760px) { 
@@ -41,10 +46,10 @@
   }
   
   /* Style the button and place it in the middle of the card/image */
-  .card .btn {
+  .card .btn1 {
     position: absolute;
-    top: 85%;
-    left: 90%;
+    top: 60%;
+    left: 40%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     padding: 12px 24px;
@@ -66,7 +71,7 @@
 }
 
 /* Style the button and place it in the middle of the card/image */
-.card .btn {
+.card .btn1 {
   position: absolute;
   top: 47%;
   left: 80%;
